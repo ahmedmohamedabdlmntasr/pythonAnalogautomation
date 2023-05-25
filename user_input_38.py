@@ -1,0 +1,7 @@
+fName=input("what\'s your fisrt name?")
+mName=input("what is you middle name?")
+lName=input("what\'s you last name?")
+fName=fName.strip().capitalize()
+mName=mName.strip().capitalize()
+lName=lName.strip().capitalize()
+print(f"hallo mr {fName:} {mName:.1s} {lName} nice to hear from you")
